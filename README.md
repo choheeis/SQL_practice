@@ -1,1 +1,1 @@
-# SQL_practice
+## 🦾 SQL 관련 문제를 풀어보자
