@@ -1,0 +1,11 @@
+/* [MySQL]
+📎 https://programmers.co.kr/learn/courses/30/lessons/59411 - 오랜기간 보호한 동물(2)
+📌 DATETIME - DATETIME 가능 (빼기 가능 = 기간 구할 수 있다는 뜻)
+*/
+
+SELECT I.ANIMAL_ID, I.NAME
+FROM ANIMAL_INS AS I LEFT JOIN ANIMAL_OUTS AS O
+ON I.ANIMAL_ID = O.ANIMAL_ID
+WHERE O.ANIMAL_ID IS NOT NULL
+ORDER BY (O.DATETIME - I.DATETIME) DESC
+LIMIT 2
