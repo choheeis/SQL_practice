@@ -60,4 +60,3 @@ WHERE (subject = 'Medicine' AND yr < 1910) OR (subject = 'Literature' AND yr >= 
 
 
 -- 13번 문제
-jalkajfsdkljalkd
